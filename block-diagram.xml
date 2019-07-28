@@ -1,6 +1,6 @@
-<mxfile modified="2019-07-28T18:18:17.751Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Safari/605.1.15" etag="IqNGShKIG2P8Ggpp-_nA" compressed="false" version="11.0.7" type="device">
+<mxfile modified="2019-07-28T18:41:00.714Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Safari/605.1.15" etag="vCrskzJP2W5PVrcdwuMw" compressed="false" version="11.0.7" type="device">
   <diagram id="66qHUnN1mzmBZ50LJHzp" name="Page-1">
-    <mxGraphModel dx="511" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="w6J6fJwSnCC_88BGv_6t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w6J6fJwSnCC_88BGv_6t-2" target="w6J6fJwSnCC_88BGv_6t-12" edge="1">
           <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="390" as="targetPoint"/>
+            <mxPoint x="340" y="230" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="w6J6fJwSnCC_88BGv_6t-2" value="Exponent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="80" width="60" height="20" as="geometry"/>
@@ -31,7 +37,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="100"/>
-              <mxPoint x="590" y="235"/>
+              <mxPoint x="590" y="230"/>
+              <mxPoint x="550" y="230"/>
+              <mxPoint x="550" y="235"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,6 +101,11 @@
             <mxPoint x="490" y="460" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="w6J6fJwSnCC_88BGv_6t-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w6J6fJwSnCC_88BGv_6t-20" value="using sign flag to determine smaller exponent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="330" width="150" height="60" as="geometry"/>
         </mxCell>
@@ -102,7 +115,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w6J6fJwSnCC_88BGv_6t-40" value="&lt;div&gt;fraction with smaller exponent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="573.5" y="450" width="95" height="60" as="geometry"/>
+          <mxGeometry x="574" y="450" width="95" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="w6J6fJwSnCC_88BGv_6t-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6J6fJwSnCC_88BGv_6t-42" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -124,8 +137,72 @@
         <mxCell id="w6J6fJwSnCC_88BGv_6t-48" value="&lt;div&gt;the other fracton&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="450" width="60" height="40" as="geometry"/>
         </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w6J6fJwSnCC_88BGv_6t-50" target="iHsMdb6nClxN1jI2IILz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="840" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w6J6fJwSnCC_88BGv_6t-50" target="iHsMdb6nClxN1jI2IILz-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="850" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w6J6fJwSnCC_88BGv_6t-50" value="add the fractions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="700" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-4" value="sign bit&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="830" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="iHsMdb6nClxN1jI2IILz-5" target="iHsMdb6nClxN1jI2IILz-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1050" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="iHsMdb6nClxN1jI2IILz-5" target="iHsMdb6nClxN1jI2IILz-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1050" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-5" value="rounding and normalization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="890" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="230" as="targetPoint"/>
+            <mxPoint x="290" y="310" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint"/>
+            <mxPoint x="290" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-11" value="" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="430" as="sourcePoint"/>
+            <mxPoint x="490" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="iHsMdb6nClxN1jI2IILz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268" y="920" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-12" value="the larger exponent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="135" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="iHsMdb6nClxN1jI2IILz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="920" as="sourcePoint"/>
+            <mxPoint x="360" y="910" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-17" value="exponent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="579" y="1040" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="iHsMdb6nClxN1jI2IILz-18" value="Fraction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1040" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
